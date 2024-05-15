@@ -34,8 +34,8 @@ for (int elements : pay) {
         for (int i = 0; i < waste2.length; i++) {
             sum2 += waste2[i];
         }
-        int finSum = sum2/4;
-        System.out.println("средняя сумма трат в месяц составила " + finSum + " рублей" );
+        double avgSum = sum2 / (double) waste2.length;
+        System.out.println("средняя сумма трат в месяц составила " + avgSum + " рублей" );
         System.out.println();
 
         System.out.println("Task-4");
